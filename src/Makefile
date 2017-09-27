@@ -1,5 +1,5 @@
 all:
-	gcc nthrs_nesting.c -o exec -fopenmp
+	gcc nthrs_dynamic.c -o exec -fopenmp -lm
 run:
 	./exec
 valgrind:

@@ -26,7 +26,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/omp.h",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/",
                 "/usr/include/c++/7.2.0",
                 "/usr/include/c++/7.2.0/x86_64-pc-linux-gnu",
                 "/usr/local/include",
@@ -38,7 +38,7 @@
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
-                    "/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/omp.h",
+                    "/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/",
                     "/usr/include/c++/7.2.0",
                     "/usr/include/c++/7.2.0/x86_64-pc-linux-gnu",
                     "/usr/local/include",
