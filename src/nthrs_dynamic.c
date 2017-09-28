@@ -1,12 +1,12 @@
 /*
     In this case when running with no dynamic threads:
 
-        Parallel time 7.000000:
+        Parallel time: 7.000000
         Sequential time: 9.000000
 
     When running with dynamic threads:
 
-        Parallel time 11.000000:
+        Parallel time: 11.000000
         Sequential time: 9.000000
 */
 

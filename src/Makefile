@@ -1,6 +1,6 @@
 all:
-	gcc nthrs_dynamic.c -o exec -fopenmp -lm
+	gcc -g no_wait.c -o exec -fopenmp -lm
 run:
 	./exec
 valgrind:
-	valgrind ./exec
+	valgrind --leak-check=full --show-leak-kinds=all ./exec
