@@ -1,5 +1,5 @@
 all:
-	@gcc -g professor_challenge.c -o exec -fopenmp -lm
+	@gcc -g professor_challenge_optmized.c -o exec -fopenmp -lm
 run:
 	@./exec
 valgrind:

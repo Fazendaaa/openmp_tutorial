@@ -47,10 +47,10 @@ static float *initializer(unsigned int limit) {
 }
 
 int main(int argc, char **argv) {
-    static float start_time_parallel = 0.0, end_time_parallel = 0.0, start_time_sequential = 0.0, end_time_sequential = 0.0;
-    static float *a = NULL, *b = NULL, *c = NULL, *d = NULL;
+    float start_time_parallel = 0.0, end_time_parallel = 0.0, start_time_sequential = 0.0, end_time_sequential = 0.0;
+    float *a = NULL, *b = NULL, *c = NULL, *d = NULL;
     /*  DO NOT TRY TO PUSH THIS NUMBER EVEN MORE    */
-    const static unsigned int n = 250000000;
+    const unsigned int n = 250000000;
 
     a = initializer(n);
     b = initializer(n);
