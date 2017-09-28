@@ -1,6 +1,6 @@
 all:
-	gcc -g no_wait.c -o exec -fopenmp -lm
+	@gcc -g professor_challenge.c -o exec -fopenmp -lm
 run:
-	./exec
+	@./exec
 valgrind:
-	valgrind --leak-check=full --show-leak-kinds=all ./exec
+	@valgrind --leak-check=full --show-leak-kinds=all ./exec
